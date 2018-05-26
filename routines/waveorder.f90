@@ -1,4 +1,4 @@
-Subroutine Word(wave,lev,wstore,indi,indj)
+Subroutine waveorder(wave,lev,wstore,indi,indj)
 
   ! Read in wavelength(lev,lev) and sort.
   integer :: i,ii,j,jj,ord,icount,jcount
@@ -33,5 +33,5 @@ Subroutine Word(wave,lev,wstore,indi,indj)
   enddo
 enddo
 
-End Subroutine Word
+End Subroutine waveorder
 

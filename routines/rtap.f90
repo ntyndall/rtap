@@ -599,7 +599,7 @@
      allocate(ipoint(order))
      allocate(jpoint(order))
 
-     CALL Word(wlength,levels,wout,ipoint,jpoint)
+     CALL waveorder(wlength,levels,wout,ipoint,jpoint)
 
      do kk=mntmp,mxtmp
        write(19,*) 'Temperature: ', kk
