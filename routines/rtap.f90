@@ -256,7 +256,7 @@
   do Ne=1,Nodens
     edens = edens + Me
     print *, Ne, edens
-    
+
     do k=mntmp,mxtmp
       do i=1,levels
         do j=1,levels
@@ -264,7 +264,7 @@
             do kk=1,j
               COLL(i,j,k,Ne) = COLL(i,j,k,Ne) - aij(j,kk)
             enddo
-                    
+
             do kkk=1,levels
               if (kkk.eq.j) then
                 go to 99
@@ -311,7 +311,7 @@
   print *, 'Density      Temperature'
   print *, '________________________'
 
-  ! Loop over densities, then temperatures 
+  ! Loop over densities, then temperatures
   ! Guassian elimination, tweaking all the elements of C
   do Ne=1,Nodens
     print *,'  ', Ne
@@ -322,7 +322,7 @@
           factor=COLL(j,i,kk,Ne)/COLL(i,i,kk,Ne)
           COLL(j,i,kk,Ne)=0.0d0
           LHS(j,kk,Ne) = LHS(j,kk,Ne) - factor*LHS(i,kk,Ne)
-          
+
           do k=i+1,levels
             COLL(j,k,kk,Ne) = COLL(j,k,kk,Ne) - factor*COLL(i,k,kk,Ne)
           enddo
@@ -437,7 +437,7 @@
                      &  (pop(lolev,kk,Ne)*aij(lolev,lolevl))
         write(16,7015) ED(Ne), lratio(Ne,kk)*(DE1/DE2)
       enddo
-      
+
       if (kk.eq.mxtmp) then
         write(16,*)
         write(16,*) '----END LINE RATIOS----'
@@ -460,7 +460,7 @@
           write(16,7012) ED(Ne), (lratio(Ne,ii)*(DE1/DE2),ii=mntmp,mxtmp)
           write(405,*) ED(Ne), (lratio(Ne,ii)*(DE1/DE2),ii=mntmp,mxtmp)
         enddo
-     
+
         write(16,*)
         write(16,*) '----END LINE RATIOS----'
         write(16,*)
@@ -525,7 +525,7 @@
       write(19,*) '--------------------'
       write(19,*) ' Wavelength     Ind      Ne           PEC'
     endif
-        
+
     do Ne=1,Nodens
       do j=2,levels
         do i=1,j-1
@@ -555,7 +555,7 @@
               endif
             endif
           endif
-              
+
         enddo
       enddo
     enddo
@@ -566,14 +566,14 @@
     write(19,*) 'ppec = ', ppec
     write(19,*) 'Looking at PEC for transition', &
               &  uppec, '->', lopec
-    
+
     do kk=mntmp,mxtmp
       write(19,7013) temp(kk)
       do Ne=1,Nodens
         write(19,7015) ED(Ne), pec(uppec,lopec,kk,Ne)
       enddo
     enddo
-   
+
     write(19,*) 'Now loop with a constant density'
     do Ne=1,Nodens
       write(19,7011) ED(Ne)
@@ -600,7 +600,7 @@
      allocate(jpoint(order))
 
      CALL Word(wlength,levels,wout,ipoint,jpoint)
-     
+
      do kk=mntmp,mxtmp
        write(19,*) 'Temperature: ', kk
        do Ne=1,Nodens
@@ -689,40 +689,3 @@
   7018 format(25X,I3,2X,I3,F14.2,2X,ES11.4)
 
 end program
-
-Subroutine Word(wave,lev,wstore,indi,indj)
-
-  ! Read in wavelength(lev,lev) and sort.
-  integer :: i,ii,j,jj,ord,icount,jcount
-  real*8, intent(in) :: wave(lev,lev)
-  real*8, intent(out) :: wstore((lev*(lev-1))/2)
-  integer, intent(out) :: indi((lev*(lev-1))/2), &
-                     &    indj((lev*(lev-1))/2)
-
-  ord = (lev*(lev-1))/2
-
-  do i=2,lev
-    do j=1,(i-1)
-     jcount = 1
-     do ii=2,lev
-       do jj=1,(ii-1)
-         if ((i.eq.ii).and.(j.eq.jj)) then
-           continue
-         else
-           if (wave(i,j).gt.wave(ii,jj)) then
-             jcount = jcount + 1
-           else
-             continue
-           endif
-         endif
-       enddo
-     enddo
-
-   ! store indexes for returning from subroutine
-   wstore(jcount) = wave(i,j)
-   indi(jcount) = i
-   indj(jcount) = j
-  enddo
-enddo
-
-End Subroutine Word
