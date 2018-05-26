@@ -8,12 +8,13 @@
           & worder,petol,mntmp,mxtmp,wrngup,wrngdn,pops,corapp,lte
   NAMELIST/LIRA/uplev,uplevl,lolev,lolevl,uppec,lopec,ppec
 
-  integer :: clo=0,einf=0, cup=0
+  integer :: clo=0,einf=0,cup=0
+
   integer :: i,ii,j,jj,jjj,k,kk,kkk,order,Ne,prnt,pops, &
           &  corapp,popt,IC,grad,icount,worder,dum,dumm, &
           &  jcount,levels,notemp,Z,tripi,tripj,tk,Nee, &
           &  Nodens,sDens,fDens,uplev,lolev,kcount,petol, &
-          &  lopec,uppec,dumrr,ppec,mntmp,mxtmp,cup, &
+          &  lopec,uppec,dumrr,ppec,mntmp,mxtmp, &
           &  wrngup,wrngdn,uplevl,lolevl,lte,collprint
 
   real*8 :: hold,IH,dumr,start,finish,start1,finish1, &
@@ -342,8 +343,7 @@
       write(16,7006) (LHS(kk+(jcount*8),mntmp,1), kk=1,8)
       jcount = jcount + 1
     else if (k.eq.levels) then
-      write(16,7006) (LHS(levels-mod(levels,8)+kk,mntmp,1), kk=1,(mod(levels,8)))
-                   & kk=1,(mod(levels,8)))
+      write(16,7006) (LHS(levels-mod(levels,8)+kk,mntmp,1),kk=1,(mod(levels,8)))
       continue  ! Is this needed?
     endif
   enddo
