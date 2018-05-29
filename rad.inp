@@ -1,0 +1,6 @@
+&COLLINP corrap=1 Nodens=30 notemp=8 grad=0
+         sDens=8 fDens=18 IC=0 popt=1 worder=0
+         petol=-2 pops=1 wrgndn=1 wrgnup=100000000 /
+
+&LIRA line=0 uplev=2 uplevl=1 lolev=3 lolevl=2
+      lopec=1 uppec=3 ppec=0 /

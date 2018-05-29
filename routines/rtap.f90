@@ -8,7 +8,10 @@
           & worder,petol,mntmp,mxtmp,wrngup,wrngdn,pops,corapp,lte
   NAMELIST/LIRA/uplev,uplevl,lolev,lolevl,uppec,lopec,ppec
 
-  integer :: clo=0,einf=0,cup=0
+  ! Initialise all input variables
+  integer :: clo=0,einf=0,cup=0,worder=0,corapp=0,pops=0 &
+          &  petol=0,lopec=1,uppec=2,ppec=0,mntmp=1,mxtmp=-1 &
+          &  wrngup=0,wrngdn=0,line=0,grad=0,popt=0
 
   integer :: i,ii,j,jj,jjj,k,kk,kkk,order,Ne,prnt,pops, &
           &  corapp,popt,IC,grad,icount,worder,dum,dumm, &
@@ -44,22 +47,6 @@
 
   call cpu_time(start)
   call cpu_time(start1)
-
-  ! Initialise all variables
-  worder = 0
-  corapp = 0
-    pops = 0
-   petol = 0
-   lopec = 1
-   uppec = 2
-    ppec = 0
-   mntmp = 1
-   mxtmp = -1
-  wrngup = 0
-  wrngdn = 0
-    line = 0
-    grad = 0
-    popt = 0
 
   ! Read the input from rad.inp
   read(15,collinp)
