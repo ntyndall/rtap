@@ -9,27 +9,27 @@
   NAMELIST/LIRA/uplev,uplevl,lolev,lolevl,uppec,lopec,ppec
 
   ! Initialise all input variables
-  integer :: clo=0,einf=0,cup=0,worder=0,corapp=0,pops=0 &
-          &  petol=0,lopec=1,uppec=2,ppec=0,mntmp=1,mxtmp=-1 &
-          &  wrngup=0,wrngdn=0,line=0,grad=0,popt=0
+  integer :: clo=0,einf=0,cup=0,worder=0,corapp=0,pops=0, &
+           & petol=0,lopec=1,uppec=2,ppec=0,mntmp=1,mxtmp=-1, &
+           & wrngup=0,wrngdn=0,grad=0,popt=0
 
-  integer :: i,ii,j,jj,jjj,k,kk,kkk,order,Ne,prnt,pops, &
-          &  corapp,popt,IC,grad,icount,worder,dum,dumm, &
-          &  jcount,levels,notemp,Z,tripi,tripj,tk,Nee, &
-          &  Nodens,sDens,fDens,uplev,lolev,kcount,petol, &
-          &  lopec,uppec,dumrr,ppec,mntmp,mxtmp, &
-          &  wrngup,wrngdn,uplevl,lolevl,lte,collprint
+  integer :: i,ii,j,jj,jjj,k,kk,kkk,order,Ne,prnt, &
+           & IC,icount,dum,dumm, &
+           & jcount,levels,notemp,Z,tripi,tripj,tk,Nee, &
+           & Nodens,sDens,fDens,uplev,lolev,kcount,dumrr, &
+           & uplevl,lolevl,lte,collprint
 
   real*8 :: hold,IH,dumr,start,finish,start1,finish1, &
-          &  start2,finish2,start3,finish3,petolr, &
-          &  const,boltz,factor,plank,sol,Me,zero, &
-          &  newDen,corappv,ltev,DE1,DE2,totAup,totAlo
+          & start2,finish2,start3,finish3,petolr, &
+          & const,boltz,factor,plank,sol,Me,zero, &
+          & newDen,corappv,ltev,DE1,DE2,totAup,totAlo
 
   real*8, allocatable :: aij(:,:),rate(:,:,:),temp(:), &
-          &  holde(:),ED(:),XJ(:),weight(:),en(:),err(:), &
-          &  lratio(:,:),COLL(:,:,:,:),LHS(:,:,:), &
-          &  pop(:,:,:),wlength(:,:), &
-          &  pec(:,:,:,:),wout(:)
+                       & holde(:),ED(:),XJ(:),weight(:), &
+                       & en(:),err(:),lratio(:,:), &
+                       & COLL(:,:,:,:),LHS(:,:,:), &
+                       & pop(:,:,:),wlength(:,:), &
+                       & pec(:,:,:,:),wout(:)
 
   integer, allocatable :: ind(:),mult(:),bEll(:), &
           & ipoint(:), jpoint(:)
@@ -165,7 +165,8 @@
 
   ! Read temperatures
   read(10,*) dumm
-  read(10,*) dumr, dumrr, (temp(i), i=1,(notemp))
+  read(10,*) dumr, (temp(i), i=1,(notemp))
+  
   print *, 'Check temperatures are correct:', (temp(i), i=1,(notemp))
 
 
