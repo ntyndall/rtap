@@ -1,0 +1,379 @@
+ --- Radiative Transfer Output ---
+
+   - Basic Read of Input - 
+        _____________________________________________
+        | Atomic Number =                        27 |
+        | Number of Temperatures =               20 |
+        | Number of Densities =                  30 |
+        | Starting at 10^8K and finishing at 10^18K |
+        | with a mesh increment of           0.3448 |
+        _____________________________________________
+
+RESERVED FOR SPECIFIC LINES NAMELIST LINE.
+  - Basic Level Information -  
+
+Total number of levels in ADF04 file: 262
+
+_____________________________________________
+| IND.|   CONFIGURATION     |  ENERGY (eV)  |
+_____________________________________________
+|   1 |    3s23p63d7(4F)    |       0.0000  |
+|   2 |    3s23p63d7(4F)    |       0.0000  |
+|   3 |    3s23p63d7(4F)    |       0.0000  |
+|   4 |    3s23p63d7(4F)    |       0.0000  |
+|   5 |    3s23p63d7(4P)    |       0.0000  |
+|   6 |    3s23p63d7(4P)    |       0.0000  |
+|   7 |    3s23p63d7(4P)    |       0.0000  |
+|   8 |    3s23p63d7(2G)    |       0.0000  |
+|   9 |    3s23p63d7(2G)    |       0.0000  |
+|  10 |    3s23p63d7(2P)    |       0.0000  |
+|  11 |    3s23p63d7(2P)    |       0.0000  |
+|  12 |    3s23p63d7(2H)    |       0.0000  |
+|  13 |    3s23p63d7(2D)    |       0.0000  |
+|  14 |    3s23p63d7(2H)    |       0.0000  |
+|  15 |    3s23p63d7(2D)    |       0.0000  |
+|  16 |    3s23p63d7(2F)    |       0.0000  |
+|  17 |    3s23p63d7(2F)    |       0.0000  |
+|  18 |     3p63d64s(6D)    |       0.0000  |
+|  19 |     3p63d64s(6D)    |       0.0000  |
+|  20 |     3p63d64s(6D)    |       0.0000  |
+|  21 |     3p63d64s(6D)    |       0.0000  |
+|  22 |     3p63d64s(6D)    |       0.0000  |
+|  23 |     3p63d64s(4D)    |       0.0000  |
+|  24 |     3p63d64s(4D)    |       0.0000  |
+|  25 |     3p63d64s(4D)    |       0.0000  |
+|  26 |     3p63d64s(4D)    |       0.0000  |
+|  27 |    3s23p63d7(2D)    |       0.0000  |
+|  28 |    3s23p63d7(2D)    |       0.0000  |
+|  29 |     3p63d64s(4P)    |       0.0000  |
+|  30 |     3p63d64s(4H)    |       0.0000  |
+|  31 |     3p63d64s(2H)    |       0.0000  |
+|  32 |     3p63d64s(2H)    |       0.0000  |
+|  33 |     3p63d64s(4H)    |       0.0000  |
+|  34 |     3p63d64s(4P)    |       0.0000  |
+|  35 |     3p63d64s(4P)    |       0.0000  |
+|  36 |     3p63d64s(4F)    |       0.0000  |
+|  37 |     3p63d64s(4F)    |       0.0000  |
+|  38 |     3p63d64s(4F)    |       0.0000  |
+|  39 |     3p63d64s(4F)    |       0.0000  |
+|  40 |     3p63d64s(4G)    |       0.0000  |
+|  41 |     3p63d64s(2P)    |       0.0000  |
+|  42 |     3p63d64s(4G)    |       0.0000  |
+|  43 |     3p63d64s(4G)    |       0.0000  |
+|  44 |     3p63d64s(4H)    |       0.0000  |
+|  45 |     3p63d64s(4G)    |       0.0000  |
+|  46 |     3p63d64s(4H)    |       0.0000  |
+|  47 |     3p63d64s(2P)    |       0.0000  |
+|  48 |     3p63d64s(2F)    |       0.0000  |
+|  49 |     3p63d64s(2F)    |       0.0000  |
+|  50 |     3p63d64s(2G)    |       0.0000  |
+|  51 |     3p63d64s(2G)    |       0.0000  |
+|  52 |     3p63d64s(4D)    |       0.0000  |
+|  53 |     3p63d64s(4D)    |       0.0000  |
+|  54 |     3p63d64s(4D)    |       0.0000  |
+|  55 |     3p63d64s(4D)    |       0.0000  |
+|  56 |     3p63d64s(2I)    |       0.0000  |
+|  57 |     3p63d64s(2I)    |       0.0000  |
+|  58 |     3p63d64s(2G)    |       0.0000  |
+|  59 |     3p63d64s(2G)    |       0.0000  |
+|  60 |     3p63d64s(2S)    |       0.0000  |
+|  61 |     3p63d64s(2D)    |       0.0000  |
+|  62 |     3p63d64s(2D)    |       0.0000  |
+|  63 |     3p63d64s(2D)    |       0.0000  |
+|  64 |     3p63d64s(2D)    |       0.0000  |
+|  65 |     3p63d64p(6D)    |       0.0000  |
+|  66 |     3p63d64p(6D)    |       0.0000  |
+|  67 |     3p63d64p(6D)    |       0.0000  |
+|  68 |     3p63d64p(6D)    |       0.0000  |
+|  69 |     3p63d64p(6D)    |       0.0000  |
+|  70 |     3p63d64s(2F)    |       0.0000  |
+|  71 |     3p63d64s(2F)    |       0.0000  |
+|  72 |     3p63d64p(6F)    |       0.0000  |
+|  73 |     3p63d64p(6F)    |       0.0000  |
+|  74 |     3p63d64p(6F)    |       0.0000  |
+|  75 |     3p63d64p(6F)    |       0.0000  |
+|  76 |     3p63d64p(6F)    |       0.0000  |
+|  77 |     3p63d64p(6F)    |       0.0000  |
+|  78 |     3p63d64s(4P)    |       0.0000  |
+|  79 |     3p63d64p(6P)    |       0.0000  |
+|  80 |     3p63d64p(6P)    |       0.0000  |
+|  81 |     3p63d64p(4D)    |       0.0000  |
+|  82 |     3p63d64p(6P)    |       0.0000  |
+|  83 |     3p63d64p(4F)    |       0.0000  |
+|  84 |     3p63d64p(4D)    |       0.0000  |
+|  85 |     3p63d64s(4F)    |       0.0000  |
+|  86 |     3p63d64p(4D)    |       0.0000  |
+|  87 |     3p63d64s(4F)    |       0.0000  |
+|  88 |     3p63d64p(4D)    |       0.0000  |
+|  89 |     3p63d64p(4F)    |       0.0000  |
+|  90 |     3p63d64s(4F)    |       0.0000  |
+|  91 |     3p63d64s(4P)    |       0.0000  |
+|  92 |     3p63d64p(4F)    |       0.0000  |
+|  93 |     3p63d64s(4F)    |       0.0000  |
+|  94 |     3p63d64p(4F)    |       0.0000  |
+|  95 |     3p63d64s(4P)    |       0.0000  |
+|  96 |     3p63d64p(4P)    |       0.0000  |
+|  97 |     3p63d64p(4P)    |       0.0000  |
+|  98 |     3p63d64p(4P)    |       0.0000  |
+|  99 |     3p63d64s(2P)    |       0.0000  |
+| 100 |     3p63d64s(2F)    |       0.0000  |
+| 101 |     3p63d64s(2F)    |       0.0000  |
+| 102 |     3p63d64s(2P)    |       0.0000  |
+| 103 |     3p63d64s(2G)    |       0.0000  |
+| 104 |     3p63d64s(2G)    |       0.0000  |
+| 105 |     3p63d64p(4S)    |       0.0000  |
+| 106 |     3p63d64p(4G)    |       0.0000  |
+| 107 |     3p63d64p(4P)    |       0.0000  |
+| 108 |     3p63d64p(4G)    |       0.0000  |
+| 109 |     3p63d64p(4G)    |       0.0000  |
+| 110 |     3p63d64p(4I)    |       0.0000  |
+| 111 |     3p63d64p(4I)    |       0.0000  |
+| 112 |     3p63d64p(4G)    |       0.0000  |
+| 113 |     3p63d64p(4I)    |       0.0000  |
+| 114 |     3p63d64p(4H)    |       0.0000  |
+| 115 |     3p63d64p(2D)    |       0.0000  |
+| 116 |     3p63d64p(4I)    |       0.0000  |
+| 117 |     3p63d64p(2H)    |       0.0000  |
+| 118 |     3p63d64p(4S)    |       0.0000  |
+| 119 |     3p63d64p(4H)    |       0.0000  |
+| 120 |     3p63d64p(2H)    |       0.0000  |
+| 121 |     3p63d64p(4D)    |       0.0000  |
+| 122 |     3p63d64p(4F)    |       0.0000  |
+| 123 |     3p63d64p(4F)    |       0.0000  |
+| 124 |     3p63d64p(4F)    |       0.0000  |
+| 125 |     3p63d64p(4F)    |       0.0000  |
+| 126 |     3p63d64p(2G)    |       0.0000  |
+| 127 |     3p63d64p(2G)    |       0.0000  |
+| 128 |     3p63d64p(4D)    |       0.0000  |
+| 129 |     3p63d64p(2I)    |       0.0000  |
+| 130 |     3p63d64p(4D)    |       0.0000  |
+| 131 |     3p63d64p(4D)    |       0.0000  |
+| 132 |     3p63d64p(2I)    |       0.0000  |
+| 133 |     3p63d64p(4D)    |       0.0000  |
+| 134 |     3p63d64p(4D)    |       0.0000  |
+| 135 |     3p63d64p(4D)    |       0.0000  |
+| 136 |     3p63d64p(4D)    |       0.0000  |
+| 137 |     3p63d64p(4D)    |       0.0000  |
+| 138 |     3p63d64p(4G)    |       0.0000  |
+| 139 |     3p63d64p(4G)    |       0.0000  |
+| 140 |     3p63d64p(4G)    |       0.0000  |
+| 141 |     3p63d64p(4G)    |       0.0000  |
+| 142 |     3p63d64p(2F)    |       0.0000  |
+| 143 |     3p63d64p(4G)    |       0.0000  |
+| 144 |     3p63d64p(2P)    |       0.0000  |
+| 145 |     3p63d64p(2G)    |       0.0000  |
+| 146 |     3p63d64p(2P)    |       0.0000  |
+| 147 |     3p63d64p(4F)    |       0.0000  |
+| 148 |     3p63d64p(2G)    |       0.0000  |
+| 149 |     3p63d64p(4G)    |       0.0000  |
+| 150 |     3p63d64p(4P)    |       0.0000  |
+| 151 |     3p63d64p(2H)    |       0.0000  |
+| 152 |     3p63d64p(4G)    |       0.0000  |
+| 153 |     3p63d64p(4G)    |       0.0000  |
+| 154 |     3p63d64p(4F)    |       0.0000  |
+| 155 |     3p63d64p(2S)    |       0.0000  |
+| 156 |     3p63d64p(4H)    |       0.0000  |
+| 157 |     3p63d64p(4F)    |       0.0000  |
+| 158 |     3p63d64p(4H)    |       0.0000  |
+| 159 |     3p63d64p(4H)    |       0.0000  |
+| 160 |     3p63d64p(4F)    |       0.0000  |
+| 161 |     3p63d64p(4H)    |       0.0000  |
+| 162 |     3p63d64p(2D)    |       0.0000  |
+| 163 |     3p63d64p(2D)    |       0.0000  |
+| 164 |     3p63d64p(4H)    |       0.0000  |
+| 165 |     3p63d64p(2H)    |       0.0000  |
+| 166 |     3p63d64p(4H)    |       0.0000  |
+| 167 |     3p63d64p(4G)    |       0.0000  |
+| 168 |     3p63d64p(2F)    |       0.0000  |
+| 169 |     3p63d64p(2F)    |       0.0000  |
+| 170 |     3p63d64p(2K)    |       0.0000  |
+| 171 |     3p63d64p(2G)    |       0.0000  |
+| 172 |     3p63d64p(2G)    |       0.0000  |
+| 173 |     3p63d64p(2K)    |       0.0000  |
+| 174 |     3p63d64p(4P)    |       0.0000  |
+| 175 |     3p63d64p(2H)    |       0.0000  |
+| 176 |     3p63d64p(4P)    |       0.0000  |
+| 177 |     3p63d64p(2H)    |       0.0000  |
+| 178 |     3p63d64p(4P)    |       0.0000  |
+| 179 |     3p63d64p(4D)    |       0.0000  |
+| 180 |     3p63d64p(4D)    |       0.0000  |
+| 181 |     3p63d64p(4D)    |       0.0000  |
+| 182 |     3p63d64p(4F)    |       0.0000  |
+| 183 |     3p63d64p(4F)    |       0.0000  |
+| 184 |     3p63d64p(4F)    |       0.0000  |
+| 185 |     3p63d64p(2G)    |       0.0000  |
+| 186 |     3p63d64p(2G)    |       0.0000  |
+| 187 |     3p63d64p(4F)    |       0.0000  |
+| 188 |     3p63d64p(2G)    |       0.0000  |
+| 189 |     3p63d64p(2F)    |       0.0000  |
+| 190 |     3p63d64p(2H)    |       0.0000  |
+| 191 |     3p63d64p(2H)    |       0.0000  |
+| 192 |     3p63d64s(2D)    |       0.0000  |
+| 193 |     3p63d64p(2I)    |       0.0000  |
+| 194 |     3p63d64p(2I)    |       0.0000  |
+| 195 |     3p63d64p(2F)    |       0.0000  |
+| 196 |     3p63d64p(2F)    |       0.0000  |
+| 197 |     3p63d64p(4D)    |       0.0000  |
+| 198 |     3p63d64p(2P)    |       0.0000  |
+| 199 |     3p63d64s(2D)    |       0.0000  |
+| 200 |     3p63d64p(2P)    |       0.0000  |
+| 201 |     3p63d64p(2D)    |       0.0000  |
+| 202 |     3p63d64p(2D)    |       0.0000  |
+| 203 |     3p63d64p(2F)    |       0.0000  |
+| 204 |     3p63d64p(2P)    |       0.0000  |
+| 205 |     3p63d64p(2P)    |       0.0000  |
+| 206 |     3p63d64p(2F)    |       0.0000  |
+| 207 |     3p63d64p(2D)    |       0.0000  |
+| 208 |     3p63d64p(2D)    |       0.0000  |
+| 209 |     3p63d64p(2P)    |       0.0000  |
+| 210 |     3p63d64p(2P)    |       0.0000  |
+| 211 |     3p63d64p(2G)    |       0.0000  |
+| 212 |     3p63d64p(2G)    |       0.0000  |
+| 213 |     3p63d64p(2D)    |       0.0000  |
+| 214 |     3p63d64p(2D)    |       0.0000  |
+| 215 |     3p63d64p(4D)    |       0.0000  |
+| 216 |     3p63d64p(4D)    |       0.0000  |
+| 217 |     3p63d64p(4D)    |       0.0000  |
+| 218 |     3p63d64p(4D)    |       0.0000  |
+| 219 |     3p63d64s(2S)    |       0.0000  |
+| 220 |     3p63d64p(2F)    |       0.0000  |
+| 221 |     3p63d64p(2F)    |       0.0000  |
+| 222 |     3p63d64p(4G)    |       0.0000  |
+| 223 |     3p63d64p(4G)    |       0.0000  |
+| 224 |     3p63d64p(4G)    |       0.0000  |
+| 225 |     3p63d64p(4G)    |       0.0000  |
+| 226 |     3p63d64p(2S)    |       0.0000  |
+| 227 |     3p63d64p(4S)    |       0.0000  |
+| 228 |     3p63d64p(4P)    |       0.0000  |
+| 229 |     3p63d64p(4P)    |       0.0000  |
+| 230 |     3p63d64p(2G)    |       0.0000  |
+| 231 |     3p63d64p(2G)    |       0.0000  |
+| 232 |     3p63d64p(4F)    |       0.0000  |
+| 233 |     3p63d64p(4F)    |       0.0000  |
+| 234 |     3p63d64p(4D)    |       0.0000  |
+| 235 |     3p63d64p(4F)    |       0.0000  |
+| 236 |     3p63d64p(4F)    |       0.0000  |
+| 237 |     3p63d64p(4D)    |       0.0000  |
+| 238 |     3p63d64p(4F)    |       0.0000  |
+| 239 |     3p63d64p(2D)    |       0.0000  |
+| 240 |     3p63d64p(4D)    |       0.0000  |
+| 241 |     3p63d64p(2D)    |       0.0000  |
+| 242 |     3p63d64p(4D)    |       0.0000  |
+| 243 |     3p63d64p(2D)    |       0.0000  |
+| 244 |     3p63d64p(2D)    |       0.0000  |
+| 245 |     3p63d64p(2F)    |       0.0000  |
+| 246 |     3p63d64p(2F)    |       0.0000  |
+| 247 |     3p63d64p(2P)    |       0.0000  |
+| 248 |     3p63d64p(2H)    |       0.0000  |
+| 249 |     3p63d64p(2P)    |       0.0000  |
+| 250 |     3p63d64p(2H)    |       0.0000  |
+| 251 |     3p63d64p(2G)    |       0.0000  |
+| 252 |     3p63d64p(2F)    |       0.0000  |
+| 253 |     3p63d64p(2G)    |       0.0000  |
+| 254 |     3p63d64p(2G)    |       0.0000  |
+| 255 |     3p63d64p(2D)    |       0.0000  |
+| 256 |     3p63d64p(2D)    |       0.0000  |
+| 257 |     3p63d64p(2F)    |       0.0000  |
+| 258 |     3p63d64p(2F)    |       0.0000  |
+| 259 |     3p63d64p(2P)    |       0.0000  |
+| 260 |     3p63d64p(2P)    |       0.0000  |
+| 261 |     3p63d64p(2P)    |       0.0000  |
+| 262 |     3p63d64p(2P)    |       0.0000  |
+__________________________________________
+
+The new left hand side values from N_i = 1 - 262 for a particular temperature and density  (normally 1 and 1)
+
+  0.3051D+02 -0.1614D+01 -0.5644D+00 -0.2150D+00 -0.6833D+00 -0.3119D+00 -0.1258D+00 -0.7249D+00
+ -0.2355D+00 -0.2023D+00 -0.6295D-01 -0.7137D+00 -0.2573D+00 -0.2286D+00 -0.7297D-01 -0.1845D+00
+ -0.5095D+00 -0.1080D+01 -0.7281D+00 -0.4217D+00 -0.2092D+00 -0.9134D-01 -0.1660D+01 -0.8053D+00
+ -0.4076D+00 -0.1602D+00 -0.6524D-01 -0.1413D+00 -0.6197D+00 -0.1600D+01 -0.1011D+01 -0.5385D+00
+ -0.2407D+00 -0.2500D+00 -0.6944D-01 -0.1389D+01 -0.6665D+00 -0.3231D+00 -0.1630D+00 -0.1677D+01
+ -0.2502D+00 -0.9111D+00 -0.5329D+00 -0.7877D+00 -0.2618D+00 -0.4043D+00 -0.7812D-01 -0.6088D+00
+ -0.2351D+00 -0.7080D+00 -0.3109D+00 -0.1724D+00 -0.7990D-01 -0.3452D+00 -0.6714D+00 -0.3777D+00
+ -0.2722D+00 -0.3461D+00 -0.2439D+00 -0.4448D-01 -0.1098D+00 -0.2595D+00 -0.2131D+00 -0.6659D-01
+ -0.7852D+00 -0.5719D+00 -0.3573D+00 -0.2123D+00 -0.9375D-01 -0.1086D+00 -0.1945D+00 -0.1030D+01
+ -0.7960D+00 -0.5673D+00 -0.3808D+00 -0.2413D+00 -0.1237D+00 -0.3485D-01 -0.9560D+00 -0.6047D+00
+ -0.1772D+01 -0.3734D+00 -0.1659D+01 -0.6213D+00 -0.2498D+00 -0.2996D+00 -0.5447D-01 -0.1289D+00
+ -0.9182D+00 -0.1086D+00 -0.1009D+00 -0.4689D+00 -0.1916D+00 -0.2775D+00 -0.1732D+00 -0.8638D+00
+ -0.4353D+00 -0.1886D+00 -0.4037D-01 -0.1093D+00 -0.2226D+00 -0.9343D-01 -0.1300D+00 -0.9543D-01
+ -0.2414D+00 -0.1687D+01 -0.3617D+00 -0.4602D+00 -0.3370D+00 -0.6373D+00 -0.3827D+00 -0.2075D+00
+ -0.3608D+00 -0.3132D+00 -0.2728D+00 -0.1018D+01 -0.4131D+00 -0.1766D+00 -0.9561D+00 -0.6653D+00
+ -0.7040D+00 -0.2757D+00 -0.4339D+00 -0.1691D+00 -0.7921D+00 -0.8383D+00 -0.4649D+00 -0.1736D+00
+ -0.1128D+01 -0.1596D+01 -0.4665D+00 -0.8770D+00 -0.2607D+00 -0.2193D+00 -0.1760D+00 -0.1790D+00
+ -0.5322D+00 -0.1034D+01 -0.6249D+00 -0.4924D+00 -0.3002D+00 -0.2409D+00 -0.4385D+00 -0.1920D+00
+ -0.1076D+01 -0.3154D+00 -0.1151D+01 -0.2520D+00 -0.7667D+00 -0.2411D+00 -0.7376D+00 -0.5298D+00
+ -0.1007D+01 -0.6107D+00 -0.6434D+00 -0.9288D+00 -0.4488D+00 -0.7457D+00 -0.5761D+00 -0.3688D+00
+ -0.3573D+00 -0.6629D+00 -0.5337D+00 -0.7798D+00 -0.8286D+00 -0.5083D+00 -0.6134D+00 -0.4776D+00
+ -0.4961D+00 -0.5952D+00 -0.6027D+00 -0.5034D+00 -0.4507D+00 -0.7273D+00 -0.3459D+00 -0.2796D+00
+ -0.4415D+00 -0.3548D+00 -0.3300D+00 -0.3423D+00 -0.5474D+00 -0.3519D+00 -0.7273D+00 -0.7046D+00
+ -0.9571D+00 -0.7600D+00 -0.7218D+00 -0.8772D+00 -0.8444D+00 -0.4762D+00 -0.1028D+01 -0.7348D+00
+ -0.7336D+00 -0.5148D+00 -0.5680D+00 -0.6242D+00 -0.5680D+00 -0.3072D+00 -0.1927D+00 -0.2000D+00
+ -0.3934D+00 -0.4331D+00 -0.4027D+00 -0.3635D+00 -0.2001D+00 -0.5460D+00 -0.2391D+00 -0.4234D+00
+ -0.2028D+00 -0.3003D+00 -0.4185D+00 -0.4595D+00 -0.2848D+00 -0.2861D+00 -0.3146D+00 -0.5213D+00
+ -0.2087D+00 -0.5918D+00 -0.3803D+00 -0.3299D+00 -0.2771D+00 -0.4680D+00 -0.5967D+00 -0.3435D+00
+ -0.3837D+00 -0.8245D-01 -0.2519D+00 -0.4708D+00 -0.4285D+00 -0.4626D+00 -0.5167D+00 -0.2521D+00
+ -0.4643D+00 -0.4161D+00 -0.4417D+00 -0.6451D+00 -0.4124D+00 -0.5901D+00 -0.5377D+00 -0.5647D+00
+ -0.3933D+00 -0.3627D+00 -0.3872D+00 -0.4809D+00 -0.3759D+00 -0.5550D+00 -0.2560D+00 -0.6192D+00
+ -0.3111D+00 -0.4272D+00 -0.6512D+00 -0.5818D+00 -0.3277D+00 -0.2975D+00 -0.7624D-01 -0.9678D-01
+ -0.6468D-01 -0.5948D-01 -0.3867D-01 -0.2176D-01 -0.9160D-02 -0.1393D-01
+
+Looking at the specific line ratio of  2->  1/  3->  2over temperatures and densities.
+ -> Increasing density
+   Temper.  1.0000E+08 2.2122E+08 4.8939E+08 1.0826E+09 2.3950E+09 5.2983E+09 1.1721E+10 2.5929E+10 5.7362E+10 1.2690E+11 2.8072E+11 6.2102E+11 1.3738E+12 3.0392E+12 6.7234E+12 1.4874E+13 3.2903E+13 7.2790E+13 1.6103E+14 3.5623E+14 7.8805E+14 1.7433E+15 3.8566E+15 8.5317E+15 1.8874E+16 4.1753E+16 9.2367E+16 2.0434E+17 4.5204E+17 1.0000E+18
+ 3.1500E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.3100E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.4700E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.6300E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.8000E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.9800E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 4.1700E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 4.3700E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 4.5700E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 4.7900E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 5.0100E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 5.2500E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 5.3500E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 5.7500E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 6.0300E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 6.3100E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 6.6100E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 6.9200E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 7.2400E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 7.5900E+03        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+
+
+ -> Increasing temperature
+   Density  3.1500E+03 3.3100E+03 3.4700E+03 3.6300E+03 3.8000E+03 3.9800E+03 4.1700E+03 4.3700E+03 4.5700E+03 4.7900E+03 5.0100E+03 5.2500E+03 5.3500E+03 5.7500E+03 6.0300E+03 6.3100E+03 6.6100E+03 6.9200E+03 7.2400E+03 7.5900E+03
+ 1.0000E+08        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 2.2122E+08        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 4.8939E+08        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.0826E+09        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 2.3950E+09        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 5.2983E+09        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.1721E+10        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 2.5929E+10        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 5.7362E+10        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.2690E+11        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 2.8072E+11        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 6.2102E+11        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.3738E+12        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.0392E+12        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 6.7234E+12        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.4874E+13        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.2903E+13        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 7.2790E+13        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.6103E+14        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.5623E+14        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 7.8805E+14        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.7433E+15        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 3.8566E+15        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 8.5317E+15        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.8874E+16        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 4.1753E+16        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 9.2367E+16        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 2.0434E+17        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 4.5204E+17        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+ 1.0000E+18        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN
+
+ ----END LINE RATIOS----
+
